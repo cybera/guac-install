@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# To be run by Terraform script
+
 VERSION="0.9.12"
 
 # Grab a password for MySQL Root
