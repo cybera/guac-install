@@ -8,7 +8,8 @@ debconf-set-selections <<< "mysql-server mysql-server/root_password password $my
 debconf-set-selections <<< "mysql-server mysql-server/root_password_again password $mysqlrootpassword"
 
 # Grab a password for Guacamole Database User Account
-read -s -p "Enter the password that will be used for the Guacamole database: " guacdbuserpassword
+#read -s -p "Enter the password that will be used for the Guacamole database: " guacdbuserpassword
+guacdbuserpassword = $1
 
 # Install Features
 apt-get update
