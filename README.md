@@ -7,7 +7,7 @@ How to Run:
 
 Download file directly from here:
 
-<code>wget https://raw.githubusercontent.com/MysticRyuujin/guac-install/master/guac-install.sh</code>
+<code>wget https://raw.githubusercontent.com/cybera/guac-install/master/guac-install.sh</code>
 
 Make it executable:
 
